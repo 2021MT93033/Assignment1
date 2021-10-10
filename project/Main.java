@@ -7,7 +7,7 @@ public class Main {
 		int b2 = 60;
 
 		int a1 = 31;
-		int b1 = 41;
+		int b1 = 42;
 
 		MathFunctions mf = new MathFunctions(a, b);
 		mf.add();
