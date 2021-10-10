@@ -41,8 +41,18 @@ public class MathFunctions {
 		this.result = (op1 + op2) + "";
 	}
 
+	public void subtract() {
+		System.out.println("the operands are op1: " + op1 + " op2: " + op2);
+		this.result = (op1 - op2) + "";
+	}
+
 	public void display() {
 		System.out.println("The value of the operation is: " + result);
+	}
+
+	public void multiply() {
+		System.out.println("the operands are op1: " + op1 + " op2: " + op2);
+		this.result = (op1 * op2) + "";
 	}
 
 }
